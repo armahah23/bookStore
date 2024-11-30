@@ -2,7 +2,7 @@
 function EditBooks() {
   return (
     <div>
-      
+      EditBooks
     </div>
   )
 }

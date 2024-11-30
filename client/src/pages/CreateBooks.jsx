@@ -2,7 +2,7 @@
 function CreateBooks() {
   return (
     <div>
-      
+      Create Book
     </div>
   )
 }

@@ -10,10 +10,10 @@ function App() {
   return (
     <Routes>
       <Route path='/' element={<Home />} />
-      <Route path='/createbook' element={<CreateBooks />} />
-      <Route path='/deletebook' element={<DeleteBooks />} />
-      <Route path='/editbook' element={<EditBooks />} />
-      <Route path='/showbooks' element={<ShowBook />} />
+      <Route path='/book/create' element={<CreateBooks />} />
+      <Route path='/books/details/:id' element={<ShowBook />} />
+      <Route path='/books/edit/:id' element={<EditBooks />} />
+      <Route path='/books/delete/:id' element={<DeleteBooks />} />
     </Routes>
   )
 }
