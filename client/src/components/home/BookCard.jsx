@@ -26,13 +26,13 @@ function BookCard({ books }) {
                 <h2 className="my-1">{book.author}</h2>
             </div>
             <div className="flex justify-between items-center gap-x-2 mt-4 p4">
-                <Link to={`book/details/${book._id}`}>
+                <Link to={`/book/details/${book._id}`}>
                     <BsInfoCircle className="text-2xl text-green-800 hover:text-black" />
                 </Link>
-                <Link to={`book/edit/${book._id}`}>
+                <Link to={`/book/edit/${book._id}`}>
                     <AiOutlineEdit className="text-2xl text-yellow-600 hover:text-black" />
                 </Link>
-                <Link to={`book/delete/${book._id}`}>
+                <Link to={`/book/delete/${book._id}`}>
                     <MdOutlineDelete className="text-2xl text-red-600 hover:text-black" />
                 </Link>
             </div>
