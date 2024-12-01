@@ -75,6 +75,7 @@ router.post("/", async (req, res) => {
     }
   });
   
+  //delete a book
   router.delete("/:id", async (req, res) => {
       try {
           const { id } = req.params;
